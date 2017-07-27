@@ -1,0 +1,49 @@
+body {
+  font-size: 15px;
+  font-family: 'Raleway', sans-serif;
+  margin: 0 auto;
+}
+
+#search {
+  background: #F5F6F7;
+  height: 45px;
+}
+#search .search {
+  float: left;
+  margin-top: 10px;
+}
+#search .search i {
+  font-size: 20px;
+  font-weight: 100;
+  color: #606060;
+}
+#search .search input {
+  width: 615px;
+  border: none;
+  background: inherit;
+}
+#search .contact-mail {
+  float: right;
+}
+#search .contact-mail ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+#search .contact-mail ul li a {
+  text-decoration: none;
+}
+#search .contact-mail ul {
+  display: flex;
+  align-items: center;
+}
+
+#header {
+  height: 110px;
+  background: pink;
+}
+#header .header-left {
+  float: left;
+}
+#header .header-right {
+  float: right;
+}

@@ -1,0 +1,35 @@
+$mainColor:#606060;
+#search{
+	background:#F5F6F7;
+	height:45px;
+	.search{
+	float: left;
+	margin-top:10px;
+	}
+	.search i{
+	font-size:20px;
+	font-weight:100;
+	color:$mainColor;
+	}
+	.search input{
+	width:615px;
+	border:none;
+	background:inherit;
+	}
+	.contact-mail{
+		float: right;
+		
+	}
+	.contact-mail ul li{
+		display: inline-block;
+		margin-right:10px;
+	
+	}
+	.contact-mail ul li a{
+		text-decoration:none;
+	}
+	.contact-mail ul{
+	display: flex;
+ 	align-items: center;
+ }
+ }

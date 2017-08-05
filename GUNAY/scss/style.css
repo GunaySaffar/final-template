@@ -1,0 +1,54 @@
+body {
+  font-size: 15px;
+  font-family: 'Raleway', sans-serif;
+  margin: 0 auto;
+}
+
+#home * {
+  transition: all 0.2s ease;
+}
+#home .myImg {
+  height: 410px;
+  width: 100%;
+  margin: 0 0 70px;
+  background-image: url(../image/case-studies-banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+}
+#home .banner {
+  color: white;
+  padding: 80px 0 90px;
+}
+#home .banner h1 {
+  font-size: 60px;
+  font-weight: 600;
+}
+#home .banner p {
+  margin: 30px 0;
+  font-size: 17px;
+  font-weight: 600;
+}
+#home .btn-nofill {
+  background: transparent;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  text-transform: uppercase;
+  border: 2px solid #53b778;
+  border-radius: 0;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding: 15px 20px;
+}
+#home .btn-nofill:hover {
+  background: #53b778;
+}
+
+#result .yas {
+  background: yellow;
+  height: 500px;
+  width: 555px;
+  border: 1px solid gray;
+}
